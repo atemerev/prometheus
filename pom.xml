@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.miriamlaurel.prometheus</groupId>
+  <artifactId>prometheus-core</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+  <name>Miriam Laurel Prometheus: Future Promise for Java concurrency model</name>
+  <url>http://www.miriamlaurel.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+      <dependency>
+          <groupId>com.miriamlaurel.pms</groupId>
+          <artifactId>miriamlaurel-pms</artifactId>
+          <version>1.0</version>
+      </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+  </dependencies>
+</project>
